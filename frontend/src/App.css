@@ -1,0 +1,62 @@
+/* App.css */
+.app-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .homepage-container {
+    height: 100vh;
+    background-image: url('/assets/frontpage.jpg'); /* Correct relative path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .homepage-content {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #007bff;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-btn {
+    background-color: #28a745;
+  }
+  
+  .user-btn:hover {
+    background-color: #1e7e34;
+  }
+  
+  .admin-btn {
+    background-color: #6c757d;
+  }
+  
+  .admin-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+  
